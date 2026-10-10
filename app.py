@@ -78,8 +78,8 @@ fig = go.Figure(data=[go.Sankey(
 fig.update_layout(
     title_text=f"Brain Volume Hierarchy - Subject 127",
     font_size=10,
-    height=700,
-    width=1100
+    height=900,
+    width=1500
 )
 
 st.plotly_chart(fig, use_container_width=True)
